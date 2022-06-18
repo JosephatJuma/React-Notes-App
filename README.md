@@ -8,11 +8,13 @@ HOW TO CLONE THIS APP
 Step1:
 Clone the app using git by geting the link from the github repo;
 
+git clone https://github.com/JosephatJuma/React-Notes-App.git
+
 Step 2:
 Aafter cloning the app, in the directory where you have clone it, the app will be stored in another dir called counter, navigate to counter dir and in install npm :- npm install
 
 Step 3:
-we cna now run the app however we can't fetch the notes before starting the json server.
+we can now run the app however we can't fetch the notes before starting the json server.
 
 Start the json server :- npx json-server --watch json/db.json --port 8000
 this will start the sever on another port 8000. :- http://localhost:8000/notes
